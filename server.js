@@ -5,6 +5,8 @@ const fs = require("fs");
 const app = express();
 const uniqid = require('uniqid');
 
+const PORT = process.env.PORT || 3001;
+
 // middleware
 app.use(express.static("public"));
 // understand post requests json
@@ -61,6 +63,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("server is running")
 });
