@@ -6,8 +6,6 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const uniqid = require('uniqid');
 
-
-
 // middleware
 app.use(express.static("public"));
 // understand post requests json
@@ -65,5 +63,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("server is running")
-});
+    console.log(`API server now on port ${PORT}!`);
+  });
