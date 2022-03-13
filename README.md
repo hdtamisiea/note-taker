@@ -27,7 +27,7 @@ To run this program locally, enter 'npm i' into your command line.  Then ensure 
 
 ## Usage
 
-![Landing Page View](../public/assets/images/page.png)
+![Landing Page View](/public/assets/images/page.png)
 
 View walkthrough video here:
 No video provided.
