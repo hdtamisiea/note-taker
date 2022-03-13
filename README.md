@@ -4,7 +4,11 @@
 
 ## Technologies
 
-
+* Javascript
+* HTML
+* CSS
+* Express.js
+* Node.js
 
 ## Description
 
